@@ -1,0 +1,157 @@
+body{
+    background-color: darkgray;
+}
+.myFirstDiv{
+    border: 8px solid red;
+    border-radius:16px ;
+    height: 150px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 8px 8px 5px purple;
+}
+.headings{
+    font-style: italic;
+    font-size: 25px;
+    color: brown;
+    font-weight: bold;
+    text-shadow: 2px 1.6px 3px maroon,2px 1.6px 3px blueviolet;
+    
+}
+#secondDiv{
+    border: 9px solid green;
+    height: 900px;
+    width: auto;
+    position: relative;
+    /* display: flex; */
+}
+#div1{
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    border: 8px solid red;
+    border-radius: 20px;
+    box-shadow: 9px 9px 2px purple ;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+}
+#div2{
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    border: 8px solid red;
+    border-radius: 20px;
+    box-shadow: 9px 9px 2px purple ;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    
+}
+
+#div3{
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    border: 8px solid red;
+    border-radius: 20px;
+    box-shadow: 9px 9px 2px purple ;
+    position: absolute;
+    bottom: 0;
+    top:540px;
+    left: 0;
+}
+
+#div4{
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    border: 8px solid red;
+    border-radius: 20px;
+    box-shadow: 9px 9px 2px purple ;
+    position: absolute;
+    bottom: 0;
+    top:540px;
+    right: 10%;
+}
+
+#div5{
+    position: fixed;
+    align-items: center;
+    border-radius: 25px;
+    height: 100px;
+    width: 420px;
+    background-color: rgb(167, 223, 54);
+    border: 8px solid red;
+    bottom: 33px;
+    left: 30%;
+    box-shadow: 9px 9px 2px purple ;
+    
+} 
+#div5:hover{
+    
+    display: none;
+    visibility: hidden;
+}
+
+#div6{
+    height: auto;
+    width: 50%;
+    background-color: green;
+    border: 8px solid purple;
+
+}
+#div7
+{
+    height: 50%;
+    width: 50%;
+    background-color: rgba(246, 246, 6, 0.932);
+    border: 5px solid grey;
+    margin: 10px;
+    position: static;
+    top: 0;
+    left: 0;
+}
+#div8
+{
+    height: 266px;
+    width: 50%;
+    background-color: rgba(246, 246, 6, 0.932);
+    border: 5px solid grey;
+    margin: 10px;
+    position: static;
+    top: 0;
+    right: 0;
+
+    
+}
+
+#div9{
+    width: 95%;
+    height: auto;
+    background-color: rgba(246, 246, 6, 0.932);
+    margin: 10px;
+    border: 5px solid grey;
+
+
+}
+
+.div1Headings{
+    text-shadow: 1px 1.3px 3px rgb(34, 34, 224), 1px 1.3px 6px rgb(217, 25, 25);
+}
+.div3Headings{
+    text-shadow: 1px 1.3px 3px rgb(34, 34, 224), 1px 1.3px 6px rgb(217, 25, 25);
+
+}
+.div4Headings{
+    
+    text-shadow: 1px 1.3px 3px rgb(34, 34, 224), 1px 1.3px 6px rgb(217, 25, 25);
+}
+#submitbox{
+    background-color: red;
+    height: 30px;
+    width: 100px;
+    border-radius: 19px;
+}
+
+
